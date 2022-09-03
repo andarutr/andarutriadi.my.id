@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+        background-color: #57cc99;
+        font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+        color: #57cc99;
+        font-weight: bold;
+}
+
+h2 {
+        text-decoration: underline;
+        text-decoration-color: #57cc99;
+        text-underline-offset: 10px;
+}
+
+.myContent {
+        margin-left: 25px;
+        margin-right: 25px;
+}
+
+.jobTitle {
+        background-color: #0077b6;
+        border-radius: 100px;
+        padding: 10px 15px 10px 15px;
+}
+
+.btn {
+        border-radius: 100px;
+}
+
+.btn-primary {
+        background-color: #274c77;
+        border-color: #274c77;
+}
+
+.btn-primary:hover {
+        background-color: #6096ba;
+        border-color: #6096ba;
+}
+
+.btn-success {
+        background-color: #40916c;
+        border-color: #40916c;
+}
+
+.btn-success:hover {
+        background-color: #52b788;
+        border-color: #52b788;
+}

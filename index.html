@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andaru Triadi | Back End Developer</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.webp">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+
+<body>
+  <div id="app">
+    <div class="container mt-5 mb-5">
+      <div class="row" v-if="!contactMore">
+        <div class="col-lg-8 col-sm-12 mb-4">
+          <div class="card shadow">
+            <div class="card-body">
+              <center>
+                <img src="assets/img/andaru-triadi.webp" class="img-fluid mt-3 mb-3" width="150">
+                <h1>Andaru Triadi.</h1>
+                <p class="badge jobTitle mt-2 mb-5">Jr. Back End Developer</p>
+              </center>
+              <div class="myContent">
+                <p>Hi, My name is Andaru Triadi. I am a Back End Developer & Lifelong Learner. I am very passionate
+                  about learning new technologies. I have experience in different technologies such as Bootstrap,
+                  Laravel, Vuejs, and MySQL. This year, I want to be a javascript developer.</p>
+                <p>I'm also a freelance web in one of the companies in Jakarta. Have several projects that use Laravel
+                  and Vuejs frameworks. I am proud of my work for having good time management.</p>
+                <p>On the other hand, I like studying philosophy and psychology. Wait! Last but not least, I want to say
+                  thank you to my mentors: Sandhika Galih (Web Programming Unpas), Angga Risky (BuildWithAngga), Amirul Ihsan (Kawan Koding), Maximilian
+                  Schwarzmuller (Academind), Colt Steele, and Andrei Neagoie (ZTM).</p> <button
+                  class="btn btn-sm btn-success mb-3" @click="statusButton" v-if="readMore == false">Read More</button>
+                <div v-if="readMore">
+                  <!-- Education -->
+                  <center class="mt-5 mb-5">
+                    <img src="assets/img/icon/education.webp" class="img-fluid" width="75">
+                    <h2 class="mt-3">Education :</h2>
+                  </center>
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-6 mt-2">
+                      <center>
+                        <img src="assets/img/universitas-bina-sarana-informatika.webp" class="img-fluid" width="80">
+                        <p class="mt-3">Univ. Bina Sarana Informatika<br>(2019 - 2023)</p>
+                      </center>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mt-2">
+                      <center>
+                        <img src="assets/img/bwa.webp" class="img-fluid" width="80">
+                        <p class="mt-3">Fullstack Website Developer - BuildWithAngga<br>(2021)</p>
+                      </center>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mt-2">
+                      <center>
+                        <img src="assets/img/codepolitan.webp" class="img-fluid" width="100">
+
+                        <p>Programmer SKKNI - Codepolitan<br>(2020)</p>
+                      </center>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mt-2">
+                      <center>
+                        <img src="assets/img/smk-islam-pb-soedirman-2.webp" class="img-fluid" width="80">
+                        <p class="mt-3">SMK Islam PB. Soedirman 2<br>(2016 - 2019)</p>
+                      </center>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mt-2">
+                      <center>
+                        <img src="assets/img/yayasan-lia.webp" class="img-fluid" width="80">
+                        <p class="mt-3">Preparation TOEFL - Yayasan LIA<br>(2014 - 2015)</p>
+                      </center>
+                    </div>
+                  </div>
+                  <!-- Skill -->
+                  <center class="mt-5 mb-5">
+                    <img src="assets/img/icon/skill.webp" class="img-fluid" width="75">
+                    <h2 class="mt-3">Skills :</h2>
+                    <img src="assets/img/bootstrap.webp" class="img-fluid" width="150">
+                    <img src="assets/img/laravel.webp" class="img-fluid" width="150">
+                    <img src="assets/img/vue.webp" class="img-fluid" width="150">
+                    <img src="assets/img/mysql.webp" class="img-fluid" width="150">
+                  </center>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer" style="background-color: #5390d9;"
+              v-if="readMore == true && experienceCard == false">
+              <center>
+                <a href="javascript:;" style="color: white; text-decoration: none;" @click="statusExperience">Click to
+                  show my experience!</a>
+              </center>
+            </div>
+          </div>
+          <div class="card shadow mt-5" v-if="experienceCard">
+            <div class="card-body">
+              <center>
+                <img src="assets/img/icon/freelancer.webp" class="img-fluid mt-3 mb-3" width="75">
+                <h2>Experience</h2>
+              </center>
+              <div class="myContent">
+                <div class="row">
+                  <div class="col-2 mt-5">
+                    <img src="assets/img/coding.webp" class="img-fluid" widh="100">
+                  </div>
+                  <div class="col-10 mt-5">
+                    <p><b>Back End Developer – Freelance</b><br>
+                      Wrpro.id PT Aimar Jaya Berkah<br>
+                      (November 2021 – Present)</p>
+                    <ul>
+                      <li>Creating elegant solutions in the least amount of time. Developed an e-commerce web app,
+                        customer web portal, documentary launch website, and donations web app for a local charity.</li>
+                    </ul>
+                  </div>
+                  <div class="col-2 mt-3">
+                    <img src="assets/img/coding.webp" class="img-fluid" widh="100">
+                  </div>
+                  <div class="col-10 mt-3">
+                    <p><b>Web Application Developer – Freelance</b><br>
+                      Smk Islam PB. Soedirman 2 Jakarta<br>
+                      (May 2020 – April 2022)</p>
+                    <ul>
+                      <li>Created a e-absensi web app for a
+                        local students. Raised user by 95%.
+                        Saved time for teacher.</li>
+                      <li>Make a platform e-learning for
+                        students. It makes learning activities
+                        more efficient.</li>
+                      <li>Fixed learning management system
+                        app bugs for exam purposes.</li>
+                    </ul>
+                  </div>
+                  <div class="col-2 mt-3">
+                    <img src="assets/img/coding.webp" class="img-fluid" widh="100">
+                  </div>
+                  <div class="col-10 mt-3">
+                    <p><b>PHP Web Developer – Full Time</b><br>
+                      CV. Birojasa Mitra Jaya Solusindo<br>
+                      (May 2021 – October 2021)</p>
+                    <ul>
+                      <li>Created a ticket (e-samsat) web app
+                        for Jabodetabek. Raised buyers by
+                        80%. Saved money for the owner of a
+                        business.</li>
+                      <li>Make a system database buyer and
+                        helped the owner with marketing
+                        strategy.</li>
+                      <li>Briefings to employees on the use of
+                        the web app.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer" style="background-color: #5390d9;">
+              <center>
+                <a href="javascript:;" style="color: white; text-decoration: none;" @click="statusContact">Contact more?
+                  Let's Meet!</a>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="card shadow mb-5">
+            <div class="card-body">
+              <h2>Stay Connect :</h2>
+              <a href="https://www.github.com/andarutr/" target="_blank">
+                <img src="assets/img/social/github.webp" class="img-fluid mt-3" width="80">
+              </a>&nbsp;
+              <a href="https://instagram.com/andarutr" target="_blank">
+                <img src="assets/img/social/instagram.webp" class="img-fluid mt-3" width="70">
+              </a>&nbsp;
+              <a href="#" target="_blank">
+                <img src="assets/img/social/discord.webp" class="img-fluid mt-3" width="70">
+              </a>
+              <a href="https://www.linkedin.com/in/andaru-triadi-b33a78189/" target="_blank">
+                <img src="assets/img/social/linkedin.webp" class="img-fluid mt-3 mb-3" width="150">
+              </a>&nbsp;
+              <a href="mailto:andarutr@gmail.com" target="_blank">
+                <img src="assets/img/social/gmail.webp" class="img-fluid mt-3 mb-3" width="150">
+              </a>
+            </div>
+          </div>
+          <div class="card shadow mb-5">
+            <div class="card-body">
+              <h2>Hire Me?</h2>
+              <a href="assets/doc/CV_AndaruTriadi.pdf" class="btn btn-primary mt-3 mb-3">Download CV</a>&nbsp;
+              <a href="certificate/index.html" class="btn btn-success mt-3 mb-3">My Certificate</a>
+            </div>
+          </div>
+          <div class="card shadow">
+            <div class="card-body">
+              <h2>Thank's To:</h2>
+              <a href="https://kawankoding.com" target="_blank">
+                <img src="assets/img/kawan-koding.webp" class="img-fluid" width="100">
+              </a>&nbsp;
+              <a href="https://codepolitan.com" target="_blank">
+                <img src="assets/img/codepolitan.webp" class="img-fluid" width="100">
+              </a>&nbsp;
+              <a href="https://buildwithangga.com" target="_blank">
+                <img src="assets/img/bwa.webp" class="img-fluid" width="70">
+              </a>&nbsp;
+              <a href="https://www.youtube.com/c/WebProgrammingUNPAS" target="_blank">
+                <img src="assets/img/web-programming-unpas.webp" class="img-fluid" width="100">
+              </a>&nbsp;
+              <a href="https://zerotomastery.io" target="_blank">
+                <img src="assets/img/ztm.webp" class="img-fluid" width="80">
+              </a>&nbsp;
+              <a href="https://academind.com" target="_blank">
+                <img src="assets/img/academind.webp" class="img-fluid" width="120">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" v-else>
+        <div class="col-lg-2 col-sm-12 mb-4"></div>
+        <div class="col-lg-8 col-sm-12 mb-4">
+          <div class="card shadow">
+            <div class="card-body">
+              <center class="mt-5 mb-5">
+                <img src="assets/img/icon/contact-info.webp" class="img-fluid" width="150">
+                <h2 class="mt-3">Contact Me!</h2>
+                <h5 class="text-success mt-5"><a href="https://wa.me/6281212088497" target="_blank"
+                    style="text-decoration: none;">0812-1208-8497
+                    (Whatsapp)</a></h5>
+              </center>
+            </div>
+            <div class="card-footer" style="background-color: #5390d9;">
+              <center>
+                <a href="javascript:;" style="color: white; text-decoration: none;" @click="resetCard">Back To Home</a>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-12 mb-4"></div>
+      </div>
+    </div>
+  </div>
+  <!-- JS -->
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
