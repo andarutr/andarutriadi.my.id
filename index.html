@@ -8,6 +8,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.webp">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 
@@ -19,7 +20,7 @@
           <div class="card shadow">
             <div class="card-body">
               <center>
-                <img src="assets/img/andaru-triadi.webp" class="img-fluid mt-3 mb-3" width="150">
+                <img src="assets/img/andaru-triadi.webp" class="img-fluid mt-3 mb-3" width="150" alt="Andaru Triadi">
                 <h1>Andaru Triadi.</h1>
                 <p class="badge jobTitle mt-2 mb-5">Jr. Back End Developer</p>
               </center>
@@ -30,7 +31,8 @@
                 <p>I'm also a freelance web in one of the companies in Jakarta. Have several projects that use Laravel
                   and Vuejs frameworks. I am proud of my work for having good time management.</p>
                 <p>On the other hand, I like studying philosophy and psychology. Wait! Last but not least, I want to say
-                  thank you to my mentors: Sandhika Galih (Web Programming Unpas), Angga Risky (BuildWithAngga), Amirul Ihsan (Kawan Koding), Maximilian
+                  thank you to my mentors: Sandhika Galih (Web Programming Unpas), Angga Risky (BuildWithAngga), Amirul
+                  Ihsan (Kawan Koding), Maximilian
                   Schwarzmuller (Academind), Colt Steele, and Andrei Neagoie (ZTM).</p> <button
                   class="btn btn-sm btn-success mb-3" @click="statusButton" v-if="readMore == false">Read More</button>
                 <div v-if="readMore">
@@ -42,32 +44,43 @@
                   <div class="row">
                     <div class="col-lg-4 col-sm-6 mt-2">
                       <center>
-                        <img src="assets/img/universitas-bina-sarana-informatika.webp" class="img-fluid" width="80">
-                        <p class="mt-3">Univ. Bina Sarana Informatika<br>(2019 - 2023)</p>
+                        <img src="assets/img/education/universitas-bina-sarana-informatika.webp" class="img-fluid"
+                          width="80" alt="Universitas Bina Sarana Informatika">
+                        <p class="mt-3">Teknologi Informasi - Univ. Bina Sarana Informatika<br>(2019 - 2023)</p>
                       </center>
                     </div>
                     <div class="col-lg-4 col-sm-6 mt-2">
                       <center>
-                        <img src="assets/img/bwa.webp" class="img-fluid" width="80">
+                        <img src="assets/img/education/skillacademy.webp" class="img-fluid" width="80"
+                          alt="Skill Academy">
+                        <p class="mt-3">Bootcamp Mahir SEO Untuk Pemula Batch 1 - Skill Academy<br>(2022)</p>
+                      </center>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mt-2">
+                      <center>
+                        <img src="assets/img/education/bwa.webp" class="img-fluid" width="80" alt="Buildwithangga">
                         <p class="mt-3">Fullstack Website Developer - BuildWithAngga<br>(2021)</p>
                       </center>
                     </div>
                     <div class="col-lg-4 col-sm-6 mt-2">
                       <center>
-                        <img src="assets/img/codepolitan.webp" class="img-fluid" width="100">
+                        <img src="assets/img/education/codepolitan.webp" class="img-fluid" width="100"
+                          alt="Codepolitan">
 
                         <p>Programmer SKKNI - Codepolitan<br>(2020)</p>
                       </center>
                     </div>
                     <div class="col-lg-4 col-sm-6 mt-2">
                       <center>
-                        <img src="assets/img/smk-islam-pb-soedirman-2.webp" class="img-fluid" width="80">
+                        <img src="assets/img/education/smk-islam-pb-soedirman-2.webp" class="img-fluid" width="80"
+                          alt="Smk Islam Pb. Soedirman 2 Jakarta">
                         <p class="mt-3">SMK Islam PB. Soedirman 2<br>(2016 - 2019)</p>
                       </center>
                     </div>
                     <div class="col-lg-4 col-sm-6 mt-2">
                       <center>
-                        <img src="assets/img/yayasan-lia.webp" class="img-fluid" width="80">
+                        <img src="assets/img/education/yayasan-lia.webp" class="img-fluid" width="80"
+                          alt="Yayasan Lia Pengadegan">
                         <p class="mt-3">Preparation TOEFL - Yayasan LIA<br>(2014 - 2015)</p>
                       </center>
                     </div>
@@ -76,10 +89,10 @@
                   <center class="mt-5 mb-5">
                     <img src="assets/img/icon/skill.webp" class="img-fluid" width="75">
                     <h2 class="mt-3">Skills :</h2>
-                    <img src="assets/img/bootstrap.webp" class="img-fluid" width="150">
-                    <img src="assets/img/laravel.webp" class="img-fluid" width="150">
-                    <img src="assets/img/vue.webp" class="img-fluid" width="150">
-                    <img src="assets/img/mysql.webp" class="img-fluid" width="150">
+                    <img src="assets/img/skill/bootstrap.webp" class="img-fluid" width="150" alt="Bootstrap">
+                    <img src="assets/img/skill/laravel.webp" class="img-fluid" width="150" alt="Laravel">
+                    <img src="assets/img/skill/vue.webp" class="img-fluid" width="150" alt="Vuejs">
+                    <img src="assets/img/skill/mysql.webp" class="img-fluid" width="150" alt="MySQL">
                   </center>
                 </div>
               </div>
@@ -95,13 +108,13 @@
           <div class="card shadow mt-5" v-if="experienceCard">
             <div class="card-body">
               <center>
-                <img src="assets/img/icon/freelancer.webp" class="img-fluid mt-3 mb-3" width="75">
+                <img src="assets/img/icon/freelancer.webp" class="img-fluid mt-3 mb-3" width="100">
                 <h2>Experience</h2>
               </center>
               <div class="myContent">
                 <div class="row">
                   <div class="col-2 mt-5">
-                    <img src="assets/img/coding.webp" class="img-fluid" widh="100">
+                    <img src="assets/img/icon/coding.webp" class="img-fluid">
                   </div>
                   <div class="col-10 mt-5">
                     <p><b>Back End Developer – Freelance</b><br>
@@ -113,7 +126,7 @@
                     </ul>
                   </div>
                   <div class="col-2 mt-3">
-                    <img src="assets/img/coding.webp" class="img-fluid" widh="100">
+                    <img src="assets/img/icon/coding.webp" class="img-fluid">
                   </div>
                   <div class="col-10 mt-3">
                     <p><b>Web Application Developer – Freelance</b><br>
@@ -131,7 +144,7 @@
                     </ul>
                   </div>
                   <div class="col-2 mt-3">
-                    <img src="assets/img/coding.webp" class="img-fluid" widh="100">
+                    <img src="assets/img/icon/coding.webp" class="img-fluid">
                   </div>
                   <div class="col-10 mt-3">
                     <p><b>PHP Web Developer – Full Time</b><br>
@@ -154,8 +167,8 @@
             </div>
             <div class="card-footer" style="background-color: #5390d9;">
               <center>
-                <a href="javascript:;" style="color: white; text-decoration: none;" @click="statusContact">Contact more?
-                  Let's Meet!</a>
+                <a href="javascript:;" style="color: white; text-decoration: none;" @click="statusContact">Contact
+                  me</a>
               </center>
             </div>
           </div>
@@ -185,29 +198,30 @@
             <div class="card-body">
               <h2>Hire Me?</h2>
               <a href="assets/doc/CV_AndaruTriadi.pdf" class="btn btn-primary mt-3 mb-3">Download CV</a>&nbsp;
-              <a href="https://www.dropbox.com/sh/m8xgtojekyaeiba/AABr7IuEn3lnHDFc0O5PqnQUa?dl=0" class="btn btn-success mt-3 mb-3">My Certificate</a>
+              <a href="https://www.dropbox.com/sh/m8xgtojekyaeiba/AABr7IuEn3lnHDFc0O5PqnQUa?dl=0"
+                class="btn btn-success mt-3 mb-3">My Certificate</a>
             </div>
           </div>
           <div class="card shadow">
             <div class="card-body">
               <h2>Thank's To:</h2>
               <a href="https://kawankoding.com" target="_blank">
-                <img src="assets/img/kawan-koding.webp" class="img-fluid" width="100">
+                <img src="assets/img/course/kawan-koding.webp" class="img-fluid" width="100">
               </a>&nbsp;
               <a href="https://codepolitan.com" target="_blank">
-                <img src="assets/img/codepolitan.webp" class="img-fluid" width="100">
+                <img src="assets/img/education/codepolitan.webp" class="img-fluid" width="100">
               </a>&nbsp;
               <a href="https://buildwithangga.com" target="_blank">
-                <img src="assets/img/bwa.webp" class="img-fluid" width="70">
+                <img src="assets/img/education/bwa.webp" class="img-fluid" width="70">
               </a>&nbsp;
               <a href="https://www.youtube.com/c/WebProgrammingUNPAS" target="_blank">
-                <img src="assets/img/web-programming-unpas.webp" class="img-fluid" width="100">
+                <img src="assets/img/course/web-programming-unpas.webp" class="img-fluid" width="100">
               </a>&nbsp;
               <a href="https://zerotomastery.io" target="_blank">
-                <img src="assets/img/ztm.webp" class="img-fluid" width="80">
+                <img src="assets/img/course/ztm.webp" class="img-fluid" width="80">
               </a>&nbsp;
               <a href="https://academind.com" target="_blank">
-                <img src="assets/img/academind.webp" class="img-fluid" width="120">
+                <img src="assets/img/course/academind.webp" class="img-fluid" width="120">
               </a>
             </div>
           </div>
@@ -219,11 +233,10 @@
           <div class="card shadow">
             <div class="card-body">
               <center class="mt-5 mb-5">
-                <img src="assets/img/icon/contact-info.webp" class="img-fluid" width="150">
+                <img src="assets/img/icon/contact-info.webp" class="img-fluid" width="100">
                 <h2 class="mt-3">Contact Me!</h2>
-                <h5 class="text-success mt-5"><a href="https://wa.me/6281212088497" target="_blank"
-                    style="text-decoration: none;">0812-1208-8497
-                    (Whatsapp)</a></h5>
+                <h5 class="text-success mt-5"><a href="https://biolinky.co/andarutr" target="_blank"
+                    style="text-decoration: none;">Biolinky / Andarutr</a></h5>
               </center>
             </div>
             <div class="card-footer" style="background-color: #5390d9;">
@@ -237,6 +250,9 @@
       </div>
     </div>
   </div>
+  <a href="https://wa.me/6281212088497" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
   <!-- JS -->
   <script src="https://unpkg.com/vue@next"></script>
   <script src="assets/js/app.js"></script>
