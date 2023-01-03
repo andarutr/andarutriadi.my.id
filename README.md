@@ -1,28 +1,63 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Andaru Triadi
-=====================================================================================================================================
-
-Jr. Back End Developer
-----------------------
-
-I am a Junior Back End Developer & Lifelong Learner. I am very passionate about learning new technologies. I have experience in different technologies such as Bootstrap, Laravel, VueJS, and MySQL. This year, I want to be a Javascript developer.
-
-*   🌍  I'm based in Jakarta, Indonesia
-*   🖥️  See my portfolio at [Personal Website](http://andarutriadi.my.id)
-*   ✉️  You can contact me at [andarutr@gmail.com](mailto:andarutr@gmail.com)
-*   🚀  I'm currently working on [Wrpro](http://wrpro.my.id)
-*   🧠  I'm learning MERN Framework
-*   🤝  I'm open to collaborating on Laravel Project
-
-### Skills 
-<p align="left">
-<a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap" /></a>
-<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" width="36" height="36" alt="TailwindCSS" /></a>
-<a href="https://vuejs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vuejs-colored.svg" width="36" height="36" alt="Vue" /></a>
-<a href="https://laravel.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/laravel-colored.svg" width="36" height="36" alt="Laravel" /></a>
-<a href="https://www.adobe.com/uk/products/photoshop.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored.svg" width="36" height="36" alt="Photoshop" /></a>
+<p align="center">
+	<img src="https://i.pinimg.com/originals/e8/f4/53/e8f453469a3ec97ecd354df465d73913.gif" width="250"/>
 </p>
-                    
+<h1 align="center">Hi 👋, I'm Andaru Triadi</h1>
+<h3 align="center">Junior Back End Developer from Indonesia</h3><br>
 
-### Socials
+- 🔭 I’m currently freelancing on [wrpro](https://wrpro.my.id)
 
-<p align="left"> <a href="https://www.github.com/andarutr" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/andaru-triadi-b33a78189/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>
+- 🌱 I’m currently learning **MERN Stack**
+
+- 👨‍💻 All of my projects are available at [my personal website](https://andarutriadi.my.id)
+
+- 💬 Ask me about **Laravel & Livewire**
+
+- 📫 How to reach me **andarutr@gmail.com**
+
+- 📄 Know about my experiences [resume](https://andarutriadi.my.id/assets/doc/CV_AndaruTriadi.pdf)
+
+- ⚡ Fun fact **I Think I'm a Stoa**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+	<a href="https://github.com/andarutr" target="blank">
+		<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="andarutr" height="30" width="40" />
+	</a>
+	<a href="https://linkedin.com/in/andaru-triadi-b33a78189" target="blank">
+		<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="andaru-triadi-b33a78189" height="30" width="40" />
+	</a>
+	<a href="https://instagram.com/andarutr" target="blank">
+		<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="andarutr" height="30" width="40" />
+	</a>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> 
+	<a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> 
+		<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> 
+	</a>  
+	<a href="https://vuejs.org/" target="_blank" rel="noreferrer"> 
+		<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> 
+	</a>  
+	<a href="https://laravel.com/" target="_blank" rel="noreferrer"> 
+		<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> 
+	</a>  
+	<a href="https://laravel-livewire.com/" target="_blank" rel="noreferrer"> 
+		<img src="https://raw.githubusercontent.com/andarutr/programmer-iconify/master/icons/framework/laravel-livewire.png" alt="laravel" width="40" height="40"/> 
+	</a>
+	<a href="https://codeigniter.com" target="_blank" rel="noreferrer"> 
+		<img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" alt="codeigniter" width="40" height="40"/> 
+	</a>
+	<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
+		<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
+	</a>  
+	<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> 
+		<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
+	</a>
+	<a href="https://postman.com" target="_blank" rel="noreferrer"> 
+		<img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> 
+	</a> 
+	<a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer">
+		<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> 
+	</a> 
+</p>
