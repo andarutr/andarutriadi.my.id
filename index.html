@@ -17,8 +17,10 @@
   <div id="app">
     <div class="container mt-5 mb-5">
       <div class="row" v-if="!contactMore">
-        <div class="alert alert-primary" role="alert">
-          <i class="bi bi-book"></i> <strong>Download</strong> E-Book <u>Hello World - Enter The Real World</u> written by me in Bahasa. <a href="assets/doc/Hello World - The Real World 1.pdf" target="_blank"><i class="bi bi-download"></i></a>
+        <div class="col-lg-12 col-sm-12">
+          <div class="alert alert-primary" role="alert">
+            <i class="bi bi-book"></i> <strong>Download</strong> E-Book <u>Hello World - Enter The Real World</u> written by me in Bahasa. <a href="assets/doc/Hello World - The Real World 1.pdf" target="_blank"><i class="bi bi-download"></i></a>
+          </div>
         </div>
         <div class="col-lg-8 col-sm-12 mb-4">
           <div class="card shadow">
@@ -34,11 +36,10 @@
                 <p>Hi, my name is Andaru Triadi. I am a Junior Back End Developer & Lifelong Learner. I am very passionate about learning new technologies. I have experience in different technologies such as Bootstrap, Laravel, Livewire, Vuejs, and MySQL. This year, I want to be a Javascript developer.</p>
 
                 <p>I'm also a freelance web developer for one of the companies in Jakarta. Have several projects that use Laravel and VueJS frameworks. Having good time management is something I am proud of in my work.</p>
-
-                <p>On the other hand, I like studying philosophy and psychology. Wait! Last but not least, I want to say thank you to my mentors: Sandhika Galih (Web Programming Unpas), Angga Risky (BuildWithAngga), Amirul Ihsan (Kawan Koding), Maximilian Schwarzmuller (Academind), Colt Steele, and Andrei Neagoie (ZTM).</p>
                 <button class="btn btn-sm btn-success mb-3" @click="statusButton" v-if="readMore == false">Read More</button>
                 <div v-if="readMore">
                   <!-- Education -->
+                  <hr class="mt-4">
                   <center class="mt-5 mb-5">
                     <img src="assets/img/icon/education.webp" class="img-fluid" width="75">
                     <h2 class="mt-3">Education :</h2>
@@ -50,30 +51,6 @@
                           <img src="assets/img/education/universitas-bina-sarana-informatika.webp" class="img-fluid" width="80" alt="Universitas Bina Sarana Informatika">
                         </a>
                         <p class="mt-3">Teknologi Informasi - Univ. Bina Sarana Informatika<br>(2019 - 2023)</p>
-                      </center>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mt-2">
-                      <center>
-                        <a href="https://skillacademy.com" target="_blank">
-                          <img src="assets/img/education/skillacademy.webp" class="img-fluid" width="80" alt="Skill Academy">
-                        </a>
-                        <p class="mt-3">Bootcamp Mahir SEO Untuk Pemula Batch 1 - Skill Academy<br>(2022)</p>
-                      </center>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mt-2">
-                      <center>
-                        <a href="https://buildwithangga.com" target="_blank">
-                          <img src="assets/img/education/bwa.webp" class="img-fluid" width="80" alt="Buildwithangga">
-                        </a>
-                        <p class="mt-3">Fullstack Website Developer - BuildWithAngga<br>(2021)</p>
-                      </center>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mt-2">
-                      <center>
-                        <a href="https://codepolitan.com" target="_blank">
-                          <img src="assets/img/education/codepolitan.webp" class="img-fluid" width="100" alt="Codepolitan">
-                        </a>
-                        <p>Programmer SKKNI - Codepolitan<br>(2020)</p>
                       </center>
                     </div>
                     <div class="col-lg-4 col-sm-6 mt-2">
@@ -94,6 +71,7 @@
                     </div>
                   </div>
                   <!-- Skill -->
+                  <hr>
                   <center class="mt-5 mb-5">
                     <img src="assets/img/icon/skill.webp" class="img-fluid" width="75">
                     <h2 class="mt-3">Skills :</h2>
@@ -263,7 +241,7 @@
             </div>
             <div class="card-footer" style="background-color: #5390d9;">
               <center>
-                <a href="javascript:;" style="color: white; text-decoration: none;" @click="resetCard">Back To Home</a>
+                <a href="javascript:;" style="color: white; text-decoration: none;" @click="resetCard">Back</a>
               </center>
             </div>
           </div>
